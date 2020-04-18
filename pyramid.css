@@ -1,0 +1,36 @@
+.pyramid-slide{
+    background:#B36093;
+    color: #E6DFE4;
+    padding: 15px 0px 15px 0px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.pyramid-header{
+    background: #D2D2D2;
+    padding: 30px 110px 30px 110px;
+    
+}
+
+.pyramid{
+    border: 2px solid #B36093;
+    border-radius: 5px;
+    margin-top: 50px;
+    max-width: 800px;
+}
+
+.range{
+    margin-left:70px;
+}
+
+.pyramid-body{
+    background:#F1F1F1;
+}
+
+.inside{
+    padding: 20px;
+}
+
+p{
+    margin: -10px;
+}

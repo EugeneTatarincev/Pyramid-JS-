@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="pyramid.css">
+    <title> Pyramid </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="pyramid-slide text-center col-12">
+                <span id="da"> <b>Pyramid Slide </b> </span>
+            </div>
+
+            <div class="pyramid">
+                <div class="pyramid-header col-12">
+                    <form action="" class="form text-center">
+
+                        <label for="brickSymbol"> Brick Symbol:</label>
+                        <select name="brickSymbol" id="brickSymbol">
+                            <option value="#">#</option>
+                            <option value="@">@</option>
+                            <option value="X">X</option>
+                            <option value="$">$</option>
+                        </select>
+                        <span class="range">
+                            <label for="range">How high?</label>
+                            <input type="range" id="range" name="vol" min="1" max="20">
+                            <span id="output">  </span>
+                        </span>
+                    </form>
+                </div>
+
+                <div class="pyramid-body container">
+                    <div class="inside text-center">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="pyramid.js"></script>
+</body>
+
+</html>
